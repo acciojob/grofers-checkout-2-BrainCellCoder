@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table id="grocery-list">
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td data-ns-test="prices">1.50</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td data-ns-test="prices">0.75</td>
+        </tr>
+        <tr>
+            <td>Orange</td>
+            <td data-ns-test="prices">1.25</td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
 </body>
-
 </html>
